@@ -39,62 +39,60 @@ A modern, elegant web application for discovering and exploring books using the 
 - **Animations**: CSS animations (no external dependencies)
 - **Package Manager**: npm
 
-## 📋 Prerequisites
+## Getting Started
 
-Before you begin, ensure you have the following installed:
-- Node.js (v16 or higher)
-- npm (v7 or higher)
+### Prerequisites
 
-## 🚀 Installation & Setup
+- Node.js 18+ 
+- npm/pnpm
 
-### 1. Extract the Project
-\`\`\`bash
-# Extract the downloaded zip file to your desired location
-\`\`\`
+### Installation
 
-### 2. Open in VS Code
-\`\`\`bash
-# Open VS Code and select File → Open Folder
-# Navigate to the extracted project folder
-\`\`\`
+1. Clone the repository:
+```bash
+git clone https://github.com/KusumKr/Book-Finder.git
+cd docmind
 
-### 3. Install Dependencies
-\`\`\`bash
+```
+2. Install dependencies:
+
+# Using npm
+```
 npm install
-\`\`\`
+```
 
-### 4. Run Development Server
-\`\`\`bash
+# Using pnpm
+```
+pnpm install
+```
+3. Start the development server:
+```
 npm run dev
-\`\`\`
+# or
+pnpm dev
 
-### 5. Open in Browser
-\`\`\`
-http://localhost:3000
-\`\`\`
+```
 
-The app will automatically reload when you make changes (hot reload enabled).
+4. Open http://localhost:3000 in your browser
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 book-finder/
 ├── app/
 │   ├── page.tsx              # Main page component
 │   ├── layout.tsx            # Root layout
 │   └── globals.css           # Global styles and animations
-├── pages/
-│   └── Home.jsx              # Home page component
 ├── components/
 │   ├── SearchBar.jsx         # Search input component
 │   ├── BookCard.jsx          # Individual book card
 │   ├── BookGrid.jsx          # Grid layout for books
 │   └── BookDetail.jsx        # Book detail modal
+|   └── Home.jsx              # Home page component
 ├── public/
 │   └── book-cover.jpg        # Placeholder image
 └── package.json              # Project dependencies
-\`\`\`
-
+```
 ## 🔌 API Integration
 
 ### Open Library Search API
@@ -156,31 +154,6 @@ The app uses the **Open Library Search API** to fetch book data.
 - **Mobile**: < 640px (1 column)
 - **Tablet**: 640px - 1024px (2 columns)
 - **Desktop**: > 1024px (4 columns)
-
-## 🚀 Build for Production
-
-\`\`\`bash
-npm run build
-npm start
-\`\`\`
-
-The optimized production build will be created in the `dist/` folder.
-
-## 📝 Available Scripts
-
-\`\`\`bash
-# Development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-
-# Lint code (if configured)
-npm run lint
-\`\`\`
 
 ## 🐛 Troubleshooting
 
