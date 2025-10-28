@@ -93,6 +93,12 @@ book-finder/
 │   └── book-cover.jpg        # Placeholder image
 └── package.json              # Project dependencies
 ```
+
+## Glimpse
+<img width="1336" height="594" alt="image" src="https://github.com/user-attachments/assets/bf93d46d-dda1-404d-95d8-16cbe88722c7" />
+<img width="1337" height="598" alt="image" src="https://github.com/user-attachments/assets/332dcf6f-5a59-4a18-a221-a34ee6e1075c" />
+
+
 ## 🔌 API Integration
 
 ### Open Library Search API
