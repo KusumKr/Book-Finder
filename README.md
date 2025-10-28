@@ -51,7 +51,7 @@ A modern, elegant web application for discovering and exploring books using the 
 1. Clone the repository:
 ```bash
 git clone https://github.com/KusumKr/Book-Finder.git
-cd docmind
+cd book-finder
 
 ```
 2. Install dependencies:
