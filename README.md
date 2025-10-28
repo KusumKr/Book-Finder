@@ -199,17 +199,6 @@ npm run lint
 - Delete `node_modules` folder and `package-lock.json`, then run `npm install`
 - Restart VS Code
 
-## 🔮 Future Enhancements
-
-- [ ] Add book ratings and reviews
-- [ ] Implement user favorites/wishlist
-- [ ] Add advanced filters (genre, publication year, language)
-- [ ] Dark mode toggle
-- [ ] Book recommendations based on search history
-- [ ] User authentication and personalized collections
-- [ ] Share book details on social media
-- [ ] Add reading progress tracking
-
 ## 📄 License
 
 This project is open source and available under the MIT License.
@@ -238,6 +227,3 @@ For issues, questions, or suggestions, please open an issue in the project repos
 **Happy Reading! 📚**
 
 Made with ❤️ for book lovers everywhere.
-=======
-# Book-Finder
->>>>>>> bd27541e27e50dc21512fba9212f641e04d45ad6
