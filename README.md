@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📚 Book Finder
 
 A modern, elegant web application for discovering and exploring books using the Open Library API. Search for your next great read with a beautiful, animated interface designed for the modern generation.
@@ -238,3 +239,6 @@ For issues, questions, or suggestions, please open an issue in the project repos
 **Happy Reading! 📚**
 
 Made with ❤️ for book lovers everywhere.
+=======
+# Book-Finder
+>>>>>>> bd27541e27e50dc21512fba9212f641e04d45ad6
