@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📚 Book Finder
 
 A modern, elegant web application for discovering and exploring books using the Open Library API. Search for your next great read with a beautiful, animated interface designed for the modern generation.
